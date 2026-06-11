@@ -1,0 +1,48 @@
+{
+  "name": "@kape-theme/palette",
+  "version": "1.0.0",
+  "description": "The Kape color palette — a dark theme rooted in coffee, earth, and amber",
+  "keywords": ["kape", "theme", "color", "palette", "dark-theme", "color-scheme"],
+  "license": "MIT",
+  "author": "gabiuz",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kape-theme/palette"
+  },
+  "homepage": "https://github.com/kape-theme/palette#readme",
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./dist/index.d.ts",
+        "default": "./dist/index.js"
+      },
+      "require": {
+        "types": "./dist/index.d.cts",
+        "default": "./dist/index.cjs"
+      }
+    },
+    "./colors.json": "./colors.json"
+  },
+  "files": [
+    "dist",
+    "colors.json",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "prepublishOnly": "npm run build"
+  },
+  "devDependencies": {
+    "tsup": "^8.4.0",
+    "typescript": "^5.8.3"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

@@ -1,0 +1,183 @@
+{
+  "name": "Kape",
+  "description": "A dark color scheme rooted in coffee, earth, and amber.",
+  "version": "1.0.0",
+  "author": "gabiuz",
+  "license": "MIT",
+
+  "base": {
+    "background": {
+      "hex": "#181616",
+      "rgb": { "r": 24, "g": 22, "b": 22 },
+      "hsl": { "h": 0, "s": 4, "l": 9 },
+      "description": "Main background"
+    },
+    "surface": {
+      "hex": "#1e1b1b",
+      "rgb": { "r": 30, "g": 27, "b": 27 },
+      "hsl": { "h": 0, "s": 5, "l": 11 },
+      "description": "Raised surface background for sidebars, tabs, and inlay hints"
+    },
+    "foreground": {
+      "hex": "#d4be98",
+      "rgb": { "r": 212, "g": 190, "b": 152 },
+      "hsl": { "h": 38, "s": 41, "l": 71 },
+      "description": "Primary text"
+    },
+    "second_text": {
+      "hex": "#bdae8b",
+      "rgb": { "r": 189, "g": 174, "b": 139 },
+      "hsl": { "h": 39, "s": 28, "l": 64 },
+      "description": "Secondary / subdued text"
+    },
+    "third_text": {
+      "hex": "#928374",
+      "rgb": { "r": 146, "g": 131, "b": 116 },
+      "hsl": { "h": 28, "s": 11, "l": 51 },
+      "description": "Muted text, hints, metadata"
+    }
+  },
+
+  "accents": {
+    "red": {
+      "hex": "#b53535",
+      "rgb": { "r": 181, "g": 53, "b": 53 },
+      "hsl": { "h": 0, "s": 55, "l": 46 },
+      "description": "Errors, deletions, warnings"
+    },
+    "green": {
+      "hex": "#b4c76e",
+      "rgb": { "r": 180, "g": 199, "b": 110 },
+      "hsl": { "h": 74, "s": 40, "l": 61 },
+      "description": "Success, additions, strings"
+    },
+    "yellow": {
+      "hex": "#e7bb5c",
+      "rgb": { "r": 231, "g": 187, "b": 92 },
+      "hsl": { "h": 39, "s": 75, "l": 63 },
+      "description": "Warnings, constants, highlights"
+    },
+    "blue": {
+      "hex": "#7b8fd4",
+      "rgb": { "r": 123, "g": 143, "b": 212 },
+      "hsl": { "h": 227, "s": 47, "l": 66 },
+      "description": "Keywords, links, info"
+    },
+    "purple": {
+      "hex": "#b06880",
+      "rgb": { "r": 176, "g": 104, "b": 128 },
+      "hsl": { "h": 340, "s": 31, "l": 55 },
+      "description": "Functions, attributes, special"
+    },
+    "aqua": {
+      "hex": "#689d8a",
+      "rgb": { "r": 104, "g": 157, "b": 138 },
+      "hsl": { "h": 158, "s": 21, "l": 51 },
+      "description": "Types, parameters, tags"
+    },
+    "white": {
+      "hex": "#c2c2c2",
+      "rgb": { "r": 194, "g": 194, "b": 194 },
+      "hsl": { "h": 0, "s": 0, "l": 76 },
+      "description": "Punctuation, operators, plain text"
+    },
+    "orange": {
+      "hex": "#c87941",
+      "rgb": { "r": 200, "g": 121, "b": 65 },
+      "hsl": { "h": 28, "s": 57, "l": 52 },
+      "description": "Decorators, attributes, special variables"
+    }
+  },
+
+  "ansi": {
+    "description": "16-color ANSI terminal mapping",
+    "normal": {
+      "black":   { "hex": "#181616", "rgb": { "r": 24,  "g": 22,  "b": 22  }, "hsl": { "h": 0,   "s": 4,  "l": 9  } },
+      "red":     { "hex": "#b53535", "rgb": { "r": 181, "g": 53,  "b": 53  }, "hsl": { "h": 0,   "s": 55, "l": 46 } },
+      "green":   { "hex": "#b4c76e", "rgb": { "r": 180, "g": 199, "b": 110 }, "hsl": { "h": 74,  "s": 40, "l": 61 } },
+      "yellow":  { "hex": "#e7bb5c", "rgb": { "r": 231, "g": 187, "b": 92  }, "hsl": { "h": 39,  "s": 75, "l": 63 } },
+      "blue":    { "hex": "#7b8fd4", "rgb": { "r": 123, "g": 143, "b": 212 }, "hsl": { "h": 227, "s": 47, "l": 66 } },
+      "magenta": { "hex": "#b06880", "rgb": { "r": 176, "g": 104, "b": 128 }, "hsl": { "h": 340, "s": 31, "l": 55 } },
+      "cyan":    { "hex": "#689d8a", "rgb": { "r": 104, "g": 157, "b": 138 }, "hsl": { "h": 158, "s": 21, "l": 51 } },
+      "white":   { "hex": "#c2c2c2", "rgb": { "r": 194, "g": 194, "b": 194 }, "hsl": { "h": 0,   "s": 0,  "l": 76 } }
+    },
+    "bright": {
+      "black":   { "hex": "#2e2a2a", "rgb": { "r": 46,  "g": 42,  "b": 42  }, "hsl": { "h": 0,   "s": 5,  "l": 17 } },
+      "red":     { "hex": "#c94040", "rgb": { "r": 201, "g": 64,  "b": 64  }, "hsl": { "h": 0,   "s": 55, "l": 52 } },
+      "green":   { "hex": "#cad98a", "rgb": { "r": 202, "g": 217, "b": 138 }, "hsl": { "h": 74,  "s": 44, "l": 70 } },
+      "yellow":  { "hex": "#f0cc7a", "rgb": { "r": 240, "g": 204, "b": 122 }, "hsl": { "h": 39,  "s": 82, "l": 71 } },
+      "blue":    { "hex": "#9aaae0", "rgb": { "r": 154, "g": 170, "b": 224 }, "hsl": { "h": 227, "s": 52, "l": 74 } },
+      "magenta": { "hex": "#c8889a", "rgb": { "r": 200, "g": 136, "b": 154 }, "hsl": { "h": 343, "s": 37, "l": 66 } },
+      "cyan":    { "hex": "#89b8a8", "rgb": { "r": 137, "g": 184, "b": 168 }, "hsl": { "h": 160, "s": 25, "l": 63 } },
+      "white":   { "hex": "#d4be98", "rgb": { "r": 212, "g": 190, "b": 152 }, "hsl": { "h": 38,  "s": 41, "l": 71 } },
+      "bright_orange": {
+        "hex": "#d4975a",
+        "rgb": { "r": 212, "g": 151, "b": 90 },
+        "hsl": { "h": 28, "s": 57, "l": 59 },
+        "description": "Bright variant of orange"
+      }
+    }
+  },
+
+  "ui": {
+    "description": "Editor UI support colors used by richer ports such as Neovim",
+    "selection_background": {
+      "hex": "#2e2a2a",
+      "rgb": { "r": 46, "g": 42, "b": 42 },
+      "hsl": { "h": 0, "s": 5, "l": 17 },
+      "description": "Selection and word-highlight background"
+    },
+    "visual": {
+      "red": {
+        "hex": "#3c1f1e",
+        "rgb": { "r": 60, "g": 31, "b": 30 },
+        "hsl": { "h": 2, "s": 33, "l": 18 },
+        "description": "Tinted diagnostic or visual background for errors"
+      },
+      "yellow": {
+        "hex": "#3a2e1a",
+        "rgb": { "r": 58, "g": 46, "b": 26 },
+        "hsl": { "h": 38, "s": 38, "l": 16 },
+        "description": "Tinted diagnostic or visual background for warnings"
+      },
+      "green": {
+        "hex": "#2a3120",
+        "rgb": { "r": 42, "g": 49, "b": 32 },
+        "hsl": { "h": 85, "s": 21, "l": 16 },
+        "description": "Tinted diagnostic or visual background for hints and additions"
+      },
+      "blue": {
+        "hex": "#1e2b30",
+        "rgb": { "r": 30, "g": 43, "b": 48 },
+        "hsl": { "h": 197, "s": 23, "l": 15 },
+        "description": "Tinted diagnostic or visual background for info and modifications"
+      },
+      "purple": {
+        "hex": "#2e1e30",
+        "rgb": { "r": 46, "g": 30, "b": 48 },
+        "hsl": { "h": 293, "s": 23, "l": 15 },
+        "description": "Tinted visual background for purple accents"
+      }
+    },
+    "diff": {
+      "red": {
+        "hex": "#3c1f1e",
+        "rgb": { "r": 60, "g": 31, "b": 30 },
+        "hsl": { "h": 2, "s": 33, "l": 18 },
+        "description": "Removed-line background"
+      },
+      "green": {
+        "hex": "#2a3120",
+        "rgb": { "r": 42, "g": 49, "b": 32 },
+        "hsl": { "h": 85, "s": 21, "l": 16 },
+        "description": "Inserted-line background"
+      },
+      "blue": {
+        "hex": "#1e2b30",
+        "rgb": { "r": 30, "g": 43, "b": 48 },
+        "hsl": { "h": 197, "s": 23, "l": 15 },
+        "description": "Modified-line background"
+      }
+    }
+  }
+}
